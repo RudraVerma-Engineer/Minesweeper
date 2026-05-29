@@ -9,7 +9,7 @@ import Signup from "./Component/signup.jsx";
 import ProtectedRoute from "./Component/ProctectedRoutes.jsx";
 import Home from "./pages/Home.jsx";
 import Login from "./Component/Login.jsx";
-import CreateGrid from "./Component/createGrid.jsx";
+import CreateGrid from "./Component/CreateGrid.jsx";
 import History from "./pages/History.jsx";
 
 function App() {
