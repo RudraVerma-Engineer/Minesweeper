@@ -1,0 +1,8 @@
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    /* gap: 10px; */
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+}

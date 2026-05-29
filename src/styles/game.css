@@ -1,0 +1,31 @@
+.grid {
+  display: inline-block;
+}
+
+.row {
+  display: flex;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #ccc;
+}
+
+.cell.revealed {
+  background-color: #eee;
+  cursor: default;
+}
+
+.restart-btn {
+  margin-bottom: 10px;
+  padding: 8px 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
